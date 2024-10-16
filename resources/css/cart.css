@@ -1,0 +1,157 @@
+body{
+    background: #000;
+    font-family: 'Tinos', serif;
+}
+.nav{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+ul{
+    padding-left: 1rem;
+    margin-bottom: 0;
+}
+.nav ul li{
+    list-style: none;
+    font-family: 'Tinos', serif;;
+    padding: 8px 12px;
+}
+.nav ul a{
+    text-decoration: none;
+    color: #d9d9d9;
+    /* background-color: #fff; */
+    border: 2px solid #ee1c24;
+    border-radius: 20px;
+    padding: 8px;
+    /* margin-right: 20px; */
+}
+#a{
+    padding: 0;
+    border: none;
+    background: #fff;
+    padding: 0;
+    color: #000;
+}
+.nav-link{
+    border-radius: 20px;
+}
+.nav-link a{
+    text-decoration: none;
+    color: currentColor;
+}
+.nav-links{
+    display: flex;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.drop-down {
+    position: absolute;
+    display: none;
+    padding: 0 0;
+    background: #fff;
+    color: #000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    font-size: 16px;
+    z-index: 2;
+}
+.nav ul a:hover{
+    color: #fff;
+}
+.services:hover .drop-down{
+    display: block;
+    width: max-content;
+}
+.services a{
+    display: flex;
+}
+.dropdown-icon{
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+    right: -3px;
+    transition: 0.3s ease-in-out all;
+}
+.services:hover .dropdown-icon {
+    transform: rotate(180deg);
+    top: 0;
+}
+.drop-down li:hover {
+    background: #abc4ff;
+    color: #000;
+    border-radius: 0.5rem;
+}
+.drop-down li:hover #a{
+    background: #abc4ff;
+    color: #ee1c24;
+}
+.icons{
+    margin-right: 1rem;
+}
+.icons i{
+    font-size: 22px;
+    color: #d9d9d9;
+    padding-left: .5rem;
+    font-weight: 700;
+}
+
+
+
+
+.breadcrumb-option{
+    background: #000;
+    color: #fff;
+}
+.breadcrumb-option h4{
+    color: #fff;
+}
+.breadcrumb__links a{
+    color: #fff;
+}
+.breadcrumb__links span{
+    color: #fff;
+}
+.shopping__cart__table table thead tr th{
+    color: #fff;
+}
+.product__cart__item__text h6{
+    color: #fff;
+}
+.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text h6{
+    color: #fff;
+}
+.shopping__cart__table table tbody tr td.cart__price{
+    color: #fff;
+}
+.breadcrumb__text{
+    padding-top: 0;
+}
+shopping-cart{
+    padding-top: 0;
+}
+.spad{
+    padding-top: 50px;
+}
+
+
+.text-right h4{
+    color: #fff;
+}
+.primary-btn {
+    padding: 14px 0px;
+}
+.breadcrumb-option h4{
+    font-family: 'Tinos', serif;
+}
+.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text h6 {
+    font-family: 'Tinos', serif;
+    padding-top: 20px;
+}
+
